@@ -1,0 +1,40 @@
+<style>
+#consumer_privacy_request_form .elementor-field-group-request_type .elementor-field-subgroup {
+padding: 7px;
+border: 1px solid var(--e-global-color-8ef5caf);
+border-radius: 12px;
+}
+
+#consumer_privacy_request_form .elementor-field-group-request_type .elementor-field-subgroup .elementor-field-option {
+flex: 1;
+}
+
+#consumer_privacy_request_form .elementor-field-group-request_type .elementor-field-subgroup .elementor-field-option input[type="radio"] {
+display: none;
+}
+
+
+#consumer_privacy_request_form .elementor-field-group-request_type .elementor-field-subgroup .elementor-field-option label {
+cursor: pointer;
+color: var(--e-global-color-primary);
+border: 1px solid var(--e-global-color-8ef5caf);
+border-radius: 12px;
+background: var(--e-global-color-1618a6b);
+display: block;
+padding: 7px;
+text-align: center;
+line-height: 1.5;
+}
+
+#consumer_privacy_request_form .elementor-field-group-request_type .elementor-field-subgroup .elementor-field-option input[type="radio"]:checked+label {
+background-color: var( --e-global-color-47effb3);
+color: var(--e-global-color-ed90f3f);
+}
+
+@media screen and (max-width: 480px) {
+#consumer_privacy_request_form .elementor-field-group-request_type .elementor-field-subgroup {
+    flex-direction: column;
+    gap: 10px;
+}
+}
+</style>
