@@ -1,2 +1,2 @@
 # TerraMare
- CSS/JS code snippets log for Terra Mare website build
+ HTML/CSS/JS code snippets for Terra Mare website build
