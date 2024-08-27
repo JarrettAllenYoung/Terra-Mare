@@ -66,7 +66,7 @@
 .klaviyo-form-UZqkiH button {
 	height: 53px !important;
 	background-color: #F58C1C !important;
-	border-radius; 12px !important;
+	border-radius: 12px !important;
 	font-family: 'Poppins' !important;
 	font-size: 18px !important;
 	font-style: normal !important;
@@ -453,7 +453,7 @@ table tbody tr:hover>td {
 }
 
 .pdp-swiper.elementor-skin-slideshow .elementor-thumbnails-swiper .swiper-slide:not(.swiper-slide-active):after {
-	background-color: rgba(0, 0, 0, 0.03); !important;
+	background-color: rgba(0, 0, 0, 0.03) !important;
 	border-radius: 12px !important;
 }
 
