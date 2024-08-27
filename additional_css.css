@@ -84,24 +84,148 @@
 }
 
 
+/* PAGES */
 
-
-
-
-
-/* HOME */
+	/* HOME */
 
 .instantly-save-icon-list .premium-bullet-list-content .premium-bullet-list-text span {
 	margin-top: -6px;
 }
 
+	/* RETURNS | YOUR PRIVACY CHOICES | CONSUMER PRIVACY forms */
 
-/* MOBILE MENU POPUP */
-
-.mobile-menu-text-list .elementor-icon-list-item:hover {
-    text-decoration: underline;
-    text-decoration-color: #43423D;
+.returns-form .elementor-field-required .elementor-field-label::after, .your-privacy-choices-form .elementor-field-required .elementor-field-label::after, .consumer-privacy-request-form .elementor-field-required .elementor-field-label::after {
+    content: 'required';
+    color: #B7500B;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 4px;
 }
+
+	/* SELECT ARROW DOWN (All Forms) */
+
+.elementor-select-wrapper .select-caret-down-wrapper {
+	transform: translatey(-65%) !important;
+}
+.elementor-select-wrapper .select-caret-down-wrapper svg {
+	display: none !important;
+}
+
+.elementor-select-wrapper .select-caret-down-wrapper::before {
+	content: '\2304';
+	font-size: 24px;
+}
+
+	/* Consumer Privacy Request Form */
+
+.consumer-privacy-request-form .elementor-field-option {
+  margin-top: 0px;
+  margin-bottom: -1px;
+}
+
+.consumer-privacy-request-form .elementor-field-type-radio .elementor-field-subgroup .elementor-field-option label {
+	display: inline-block;
+}
+
+.consumer-privacy-request-form .elementor-field-option input[type="radio"] {
+  display: none;
+}
+
+.consumer-privacy-request-form .elementor-field-group .elementor-select-wrapper select {
+  border-color: #DCD6C9;
+}
+
+.consumer-privacy-request-form .elementor-field-option:checked {
+  background-color: #B7500B;
+}
+
+.consumer-privacy-request-form .elementor-field-option input[type=radio]:hover + label {
+  color: white;
+  background-color: #B7500B;
+	transition: 200ms;
+}
+
+.consumer-privacy-request-form .elementor-field-option input[type=radio]:checked + label {
+  color: white;
+  background-color: #B7500B;
+}
+
+.consumer-privacy-request-form .elementor-field-option label {
+  border: 1px solid #B7500B;
+  margin-right: -10px;
+	padding: 12px 20px;
+}
+
+
+	/* Your Privacy Choices */
+
+.your-privacy-choices-form .elementor-field-option {
+  margin-top: 0px;
+  margin-bottom: -1px;
+}
+
+.your-privacy-choices-form .elementor-field-type-radio .elementor-field-subgroup .elementor-field-option label {
+	display: inline-block;
+}
+
+.your-privacy-choices-form .elementor-field-option input[type="radio"] {
+  display: none;
+}
+
+.your-privacy-choices-form .elementor-field-group .elementor-select-wrapper select {
+  border-color: #DCD6C9;
+	padding: 12px 20px;
+}
+
+.your-privacy-choices-form .elementor-field-option:checked {
+  background-color: #B7500B;
+}
+
+.your-privacy-choices-form .elementor-field-option input[type=radio]:hover + label {
+  color: white;
+  background-color: #B7500B;
+	transition: 200ms;
+}
+
+.your-privacy-choices-form .elementor-field-option input[type=radio]:checked + label {
+  color: white;
+  background-color: #B7500B;
+}
+
+.your-privacy-choices-form .elementor-field-option label {
+  border: 1px solid #B7500B;
+  margin-right: -10px;
+	padding: 12px 20px;
+}
+
+.your-privacy-choices-form .elementor-field-required .elementor-field-label::after {
+    content: 'required';
+    color: #B7500B;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+	/* PRIVACY POLICY */
+
+table tbody>tr:nth-child(odd)>th {
+  background: transparent;
+}
+
+table tbody>tr:nth-child(odd)>td {
+  background: transparent;
+}
+
+table tbody tr:hover>th {
+  background: transparent !important;
+}
+
+table tbody tr:hover>td {
+  background: transparent !important;
+}
+
+
+
 
 /* PDPs */
 
@@ -123,52 +247,7 @@
 		flex-direction: row-reverse;
 	}
 
-/* 90-day MBG Template */
-
-.money-back-guarantee-image-box .elementor-image-box-img {
-	margin-bottom: 0 !important;
-}
-
-.money-back-guarantee-image-box .elementor-image-box-title {
-	margin-top: 0 !important;
-}
-
-.money-back-guarantee-image-box p {
-   margin-top: 0px;
-}
-
-@media only screen and (max-width: 767px) {
-	.money-back-guarantee-image-box .elementor-image-box-img {
-		margin-bottom: 32px !important;
-	}
-}
-
-
-/* RETURNS | YOUR PRIVACY CHOICES | CONSUMER PRIVACY forms */
-
-.returns-form .elementor-field-required .elementor-field-label::after, .your-privacy-choices-form .elementor-field-required .elementor-field-label::after, .consumer-privacy-request-form .elementor-field-required .elementor-field-label::after {
-    content: 'required';
-    color: #B7500B;
-    font-size: 10px;
-    font-weight: 400;
-    margin-left: 4px;
-}
-
-/* SELECT ARROW DOWN (All Forms) */
-
-.elementor-select-wrapper .select-caret-down-wrapper {
-	transform: translatey(-65%) !important;
-}
-.elementor-select-wrapper .select-caret-down-wrapper svg {
-	display: none !important;
-}
-
-.elementor-select-wrapper .select-caret-down-wrapper::before {
-	content: '\2304';
-	font-size: 24px;
-}
-
-/* PRODUCTS CAROUSEL */
+	/* PRODUCTS CAROUSEL */
 
 .product-tags {
 	pointer-events: none;
@@ -247,7 +326,7 @@
     }
 }
 
-/* PRODUCT LOOP CAROUSEL */
+	/* PRODUCT LOOP CAROUSEL */
 
 .products-carousel .elementor-heading-title a {
 	font-family: 'Crimson' !important;
@@ -304,7 +383,7 @@
 	display: none !important;
 }
 
-/* OLD PRODUCT CAROUSEL */
+	/* OLD PRODUCT CAROUSEL */
 
 
 .products-carousel a.carousel-arrow.carousel-prev {
@@ -349,7 +428,7 @@
     }
 }
 
-/* PDP Media Carousel */
+	/* PDP Media Carousel */
 
 .pdp-swiper .elementor-swiper-button-prev {
     border-radius: 0 10px 10px 0;
@@ -384,7 +463,7 @@
 }
 
 
-/* PDP OFFER SELECTOR */
+	/* PDP OFFER SELECTOR */
 
 .offer-selector .ghm-offer-selector .quantity-container .best-seller-flag, .offer-selector .ghm-offer-selector .quantity-container .best-value-flag {
 	display: none;
@@ -457,7 +536,7 @@
 }
 
 
-/* PDP POWER REVIEWS STARS */
+	/* PDP POWER REVIEWS STARS */
 
 .pr-star-v4.pr-star-v4-100-filled, .pr-star-v4.pr-star-v4-0-filled {
 	margin-right: 5px !important;
@@ -503,7 +582,7 @@
 
 
 
-/* PDP POWER REVIEWS DISPLAY */
+	/* PDP POWER REVIEWS DISPLAY */
 
 .p-w-r .pr-review-display a {
 	color: #1B1B18 !important;
@@ -628,7 +707,7 @@
 
 
 
-/* */
+	/* */
 
 
 .specs-bullet-list-mobile .premium-bullet-list-text span {
@@ -647,115 +726,9 @@
 
 
 
-/* Consumer Privacy Request Form */
-
-.consumer-privacy-request-form .elementor-field-option {
-  margin-top: 0px;
-  margin-bottom: -1px;
-}
-
-.consumer-privacy-request-form .elementor-field-type-radio .elementor-field-subgroup .elementor-field-option label {
-	display: inline-block;
-}
-
-.consumer-privacy-request-form .elementor-field-option input[type="radio"] {
-  display: none;
-}
-
-.consumer-privacy-request-form .elementor-field-group .elementor-select-wrapper select {
-  border-color: #DCD6C9;
-}
-
-.consumer-privacy-request-form .elementor-field-option:checked {
-  background-color: #B7500B;
-}
-
-.consumer-privacy-request-form .elementor-field-option input[type=radio]:hover + label {
-  color: white;
-  background-color: #B7500B;
-	transition: 200ms;
-}
-
-.consumer-privacy-request-form .elementor-field-option input[type=radio]:checked + label {
-  color: white;
-  background-color: #B7500B;
-}
-
-.consumer-privacy-request-form .elementor-field-option label {
-  border: 1px solid #B7500B;
-  margin-right: -10px;
-	padding: 12px 20px;
-}
 
 
-/* Your Privacy Choices */
-
-.your-privacy-choices-form .elementor-field-option {
-  margin-top: 0px;
-  margin-bottom: -1px;
-}
-
-.your-privacy-choices-form .elementor-field-type-radio .elementor-field-subgroup .elementor-field-option label {
-	display: inline-block;
-}
-
-.your-privacy-choices-form .elementor-field-option input[type="radio"] {
-  display: none;
-}
-
-.your-privacy-choices-form .elementor-field-group .elementor-select-wrapper select {
-  border-color: #DCD6C9;
-	padding: 12px 20px;
-}
-
-.your-privacy-choices-form .elementor-field-option:checked {
-  background-color: #B7500B;
-}
-
-.your-privacy-choices-form .elementor-field-option input[type=radio]:hover + label {
-  color: white;
-  background-color: #B7500B;
-	transition: 200ms;
-}
-
-.your-privacy-choices-form .elementor-field-option input[type=radio]:checked + label {
-  color: white;
-  background-color: #B7500B;
-}
-
-.your-privacy-choices-form .elementor-field-option label {
-  border: 1px solid #B7500B;
-  margin-right: -10px;
-	padding: 12px 20px;
-}
-
-.your-privacy-choices-form .elementor-field-required .elementor-field-label::after {
-    content: 'required';
-    color: #B7500B;
-    font-size: 10px;
-    font-weight: 400;
-    margin-left: 4px;
-}
-
-/* PRIVACY POLICY */
-
-table tbody>tr:nth-child(odd)>th {
-  background: transparent;
-}
-
-table tbody>tr:nth-child(odd)>td {
-  background: transparent;
-}
-
-table tbody tr:hover>th {
-  background: transparent !important;
-}
-
-table tbody tr:hover>td {
-  background: transparent !important;
-}
-
-/* FAQ & PDP TOGGLES */
+	/* FAQ & PDP TOGGLES */
 
 .pdp-toggle .elementor-toggle-icon svg {
 	margin-top: 8px;
@@ -779,7 +752,7 @@ table tbody tr:hover>td {
     padding-right: 50px;
 }
 
-/* How To Use toggle */
+	/* How To Use toggle */
 
 .how-to-use-instructions {
     display: flex;
@@ -823,7 +796,7 @@ table tbody tr:hover>td {
     flex: 2;
 }
 
-/* Mobile layout */
+	/* Mobile layout */
 @media (max-width: 767px) {
     .how-to-use-instructions {
         flex-direction: column;
@@ -852,11 +825,10 @@ table tbody tr:hover>td {
     }
 }
 
-/* End of "How to Use" */
+	/* End of "How to Use" */
 
 
-
-/* 3rd Party quality tested */
+	/* 3rd Party quality tested */
 
 .pdp-toggle .three-column-grid {
     display: grid;
@@ -898,8 +870,7 @@ table tbody tr:hover>td {
 	}
 }
 
-/* End of 3rd Party toggle */
-
+	/* End of 3rd Party toggle */
 
 
 .formula-column em {
@@ -1022,4 +993,38 @@ table tbody tr:hover>td {
 .supplement-table .th-2, .td-2, .th-3, .td-3 {
 	text-align: right !important;
 	width: 60px !important;
+}
+
+
+
+/* POPUPS */
+
+	/* MOBILE MENU POPUP */
+
+.mobile-menu-text-list .elementor-icon-list-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #43423D;
+}
+
+
+/* TEMPLATES */
+
+	/* 90-day MBG Template */
+
+.money-back-guarantee-image-box .elementor-image-box-img {
+	margin-bottom: 0 !important;
+}
+
+.money-back-guarantee-image-box .elementor-image-box-title {
+	margin-top: 0 !important;
+}
+
+.money-back-guarantee-image-box p {
+   margin-top: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+	.money-back-guarantee-image-box .elementor-image-box-img {
+		margin-bottom: 32px !important;
+	}
 }
