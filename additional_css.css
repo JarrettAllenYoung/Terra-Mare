@@ -14,18 +14,6 @@
 
 /* HEADER */
 
-/*
-.header-left-menu:hover .premium-main-nav-menu:first-child {
-	pointer-events: none;
-    cursor: not-allowed;
-}
-
-
-.header-search-icon:hover {
-    pointer-events: none;
-    cursor: not-allowed;
-}
-*/
 
 .mega-menu-link .elementor-image-box-title a {
     text-decoration: none !important;
