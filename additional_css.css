@@ -738,6 +738,37 @@ table tbody tr:hover>td {
 	background-color: #908E88 !important;
 }
 
+.p-w-r section {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.p-w-r .pr-review-snapshot-block-container.pr-review-snapshot-simple {
+	justify-content: center !important;
+}
+
+.p-w-r .pr-review-snapshot-block.pr-review-snapshot-block-recommend, .p-w-r .pr-review-snapshot-block.pr-review-snapshot-block-histogram, .p-w-r .pr-rd-main-header-search-sort {
+	display: none !important;
+}
+
+.p-w-r .pr-review-snapshot-block.pr-review-snapshot-block-snippet {
+	border: none !important;
+	padding: 0 !important;
+}
+
+.p-w-r .pr-snippet-write-review-link.pr-underline {
+	margin-top: 10px;
+	font-family: 'Poppins' !important;
+	font-size: 15px !important;
+	font-style: normal !important;
+	font-weight: 600 !important;
+	line-height: normal !important;
+	letter-spacing: 2.1px !important;
+	text-transform: uppercase !important;
+	border-radius: 12px !important;
+	padding: 14px 40px 14px 40px !important;
+	transition: 0.3s !important;
+}
 
 
 	/* */
