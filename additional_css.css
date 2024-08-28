@@ -518,9 +518,11 @@ table tbody tr:hover>td {
 	border-color: #8F3F0A !important;
 }
 
+/*
 .offer-selector .ghm-offer-selector .quantity-container.with-flags {
 	grid-template-columns: repeat(3, 1fr);
 }
+*/
 
 .offer-selector .ghm-offer-selector .button-container .add-to-cart {
 	color: #1B1B18;
