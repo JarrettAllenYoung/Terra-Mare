@@ -462,6 +462,25 @@ table tbody tr:hover>td {
 	border-radius: 6px !important;
 }
 
+.pdp-swiper .elementor-swiper-button-prev  {
+	left: 23px !important;
+}
+
+.pdp-swiper .elementor-swiper-button-next  {
+	right: 23px !important;
+}
+
+@media only screen and (max-width: 1149px) {
+	
+	.pdp-swiper .elementor-swiper-button-prev  {
+	left: 10px !important;
+}
+	.pdp-swiper .elementor-swiper-button-next {
+	right: 10px !important;
+	}
+}
+
+
 
 	/* PDP OFFER SELECTOR */
 
