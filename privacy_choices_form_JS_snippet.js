@@ -1,4 +1,4 @@
-<script>
+
 const gpcValue = navigator.globalPrivacyControl;
 
 if (gpcValue) {
@@ -6,4 +6,3 @@ if (gpcValue) {
 } else {
     jQuery('.gpc-signal').hide();
 }
-</script>
