@@ -35,6 +35,16 @@
 	text-decoration: underline !important;
 }
 
+.fibosearch-bar input {
+    background-color: transparent !important;
+    font-family: Poppins !important;
+    color: #43423D !important;
+}
+
+.fibosearch-bar input:focus {
+	border-color: transparent !important;
+}
+
 
 /* FOOTER */
 
@@ -49,6 +59,8 @@
 .needsclick.go4074735680.kl-private-reset-css-Xuajs1 {
 	border-radius: 12px !important;
 }
+
+/* 
 
 .klaviyo-form-UZqkiH form {
 	padding: 0 !important;
@@ -71,7 +83,7 @@
 	font-size: 18px !important;
 	font-style: normal !important;
 	font-weight: 600 !important;
-	line-height: 33px !important; /* 183.333% */
+	line-height: 33px !important;
 	letter-spacing: 2.52px !important;
 	text-transform: uppercase !important;
 	color: #1B1B18 !important;
@@ -83,6 +95,8 @@
 	transition: all 0.3s !important;
 }
 
+*/
+
 
 /* PAGES */
 
@@ -90,6 +104,10 @@
 
 .instantly-save-icon-list .premium-bullet-list-content .premium-bullet-list-text span {
 	margin-top: -6px;
+}
+
+.inline-text-underline-secondary {
+	text-decoration: underline #F58C1C !important;
 }
 
 /* RETURNS | YOUR PRIVACY CHOICES | CONSUMER PRIVACY forms */
