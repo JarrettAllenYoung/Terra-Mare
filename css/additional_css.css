@@ -110,6 +110,18 @@
 	text-decoration: underline #F58C1C !important;
 }
 
+.login-text-home-hero a, .login-text-instantly-save a {
+	transition: 200ms all;
+}
+
+.login-text-home-hero a:hover {
+	color: #D66E14 !important;
+}
+
+.login-text-instantly-save a:hover {
+	color: #8F3F0A !important;
+}
+
 /* RETURNS | YOUR PRIVACY CHOICES | CONSUMER PRIVACY forms */
 
 .returns-form .elementor-field-required .elementor-field-label::after, .your-privacy-choices-form .elementor-field-required .elementor-field-label::after, .consumer-privacy-request-form .elementor-field-required .elementor-field-label::after {
