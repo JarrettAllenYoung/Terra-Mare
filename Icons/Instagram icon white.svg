@@ -1,0 +1,12 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="instagram" clip-path="url(#clip0_1435_4640)">
+<path id="Vector" d="M4 8.25993C4 7.19907 4.42143 6.18165 5.17157 5.43151C5.92172 4.68136 6.93913 4.25993 8 4.25993H16C17.0609 4.25993 18.0783 4.68136 18.8284 5.43151C19.5786 6.18165 20 7.19907 20 8.25993V16.2599C20 17.3208 19.5786 18.3382 18.8284 19.0884C18.0783 19.8385 17.0609 20.2599 16 20.2599H8C6.93913 20.2599 5.92172 19.8385 5.17157 19.0884C4.42143 18.3382 4 17.3208 4 16.2599V8.25993Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9 12.2599C9 13.0556 9.31607 13.8186 9.87868 14.3813C10.4413 14.9439 11.2044 15.2599 12 15.2599C12.7956 15.2599 13.5587 14.9439 14.1213 14.3813C14.6839 13.8186 15 13.0556 15 12.2599C15 11.4643 14.6839 10.7012 14.1213 10.1386C13.5587 9.576 12.7956 9.25993 12 9.25993C11.2044 9.25993 10.4413 9.576 9.87868 10.1386C9.31607 10.7012 9 11.4643 9 12.2599Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M16.5 7.75993V7.76993" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1435_4640">
+<rect width="24" height="24" fill="white" transform="translate(0 0.259933)"/>
+</clipPath>
+</defs>
+</svg>
