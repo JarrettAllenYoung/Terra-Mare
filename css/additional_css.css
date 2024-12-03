@@ -14,6 +14,28 @@
 
 /* HEADER */
 
+.ghm-cart .ghm-cart-count {
+    position: absolute;
+    top: -8px;
+    right: -4px;
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.ghm-cart-mobile .ghm-cart-count {
+		position: absolute;
+    top: -8px;
+    right: 0px;
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
 
 .mega-menu-link .elementor-image-box-title a {
 	text-decoration: none !important;
@@ -44,7 +66,6 @@
 .fibosearch-bar input:focus {
 	border-color: transparent !important;
 }
-
 
 /* FOOTER */
 
@@ -255,9 +276,16 @@ table tbody tr:hover>td {
 }
 
 
-
-
 /* PDPs */
+
+.product-title-sup {
+	font-family: 'Poppins';
+	top: -4px;
+}
+
+.ghm-offer-selector .variant-options .variant-radio .variant-option label {
+	display: flex;
+}
 
 .our-process-image-box .elementor-image-box-img img {
 	height: 61px;
@@ -268,7 +296,6 @@ table tbody tr:hover>td {
 		margin-left: 22px;
 	}
 }
-
 
 .our-process-image-box.elementor-position-left .elementor-image-box-wrapper, .our-process-image-box .elementor-widget-image-box .elementor-position-right .elementor-image-box-wrapper {
 	display: flex;
@@ -288,12 +315,19 @@ table tbody tr:hover>td {
 	color: #756F61 !important;
 	text-decoration: none !important;
 	text-transform: uppercase !important;
-	font-size: 14px !important;
+	font-size: 12px !important;
 	border: 1px solid #756F61 !important;
-	padding: 4px 14px !important;
-	margin-right: 8px !important;
-	line-height: 42px !important;
+	padding: 0px 6px !important;
+	margin-right: 6px !important;
+	margin-bottom: 6px !important;
+	line-height: 20px !important;
 }
+
+.products-carousel .swiper-slide a {
+	display: inline-flex;
+	justify-content: center;
+}
+
 
 .products-carousel .premium-carousel-nav-progressbar {
 	margin-top: 20px;
@@ -415,7 +449,6 @@ table tbody tr:hover>td {
 
 /* OLD PRODUCT CAROUSEL */
 
-
 .products-carousel a.carousel-arrow.carousel-prev {
 	left: 1081px;
 }
@@ -460,6 +493,15 @@ table tbody tr:hover>td {
 
 /* PDP Media Carousel */
 
+/*
+@media only screen and (max-width: 767px) {
+	.pdp-swiper .elementor-main-swiper {
+	margin-top: -72px;
+}
+}
+*/
+
+
 .pdp-swiper .elementor-swiper-button-prev {
 	border-radius: 0 10px 10px 0;
 	padding: 16px;
@@ -483,7 +525,11 @@ table tbody tr:hover>td {
 }
 
 .pdp-swiper.elementor-skin-slideshow .elementor-thumbnails-swiper .swiper-slide:not(.swiper-slide-active):after {
-	background-color: rgba(0, 0, 0, 0.03) !important;
+	background-color: rgba(0, 0, 0, 0.00) !important;
+}
+
+.pdp-swiper.elementor-skin-slideshow .elementor-thumbnails-swiper .swiper-slide-active {
+	background-color: rgba(0,0,0,.05) !important;
 	border-radius: 12px !important;
 }
 
@@ -626,7 +672,7 @@ table tbody tr:hover>td {
 }
 
 .p-w-r .pr-snippet-review-count {
-	padding: 0 15px !important;
+	padding: 0 13px !important;
 	color: #B7500B !important;
 }
 
@@ -641,8 +687,6 @@ table tbody tr:hover>td {
 .p-w-r .pr-snippet-write-review-link.pr-underline {
 	display: none;
 }
-
-
 
 
 /* PDP POWER REVIEWS DISPLAY */
@@ -676,15 +720,16 @@ table tbody tr:hover>td {
 	display: none !important;
 }
 
-.pr-snippet-write-review-link {
-	background-color: #F58C1C !important;
+.p-w-r .pr-read-review a, .p-w-r .pr-review-display a {
+	color: #B7500B !important;
+	border-color: #B7500B !important;
 	border-radius: 12px !important;
-	border-bottom: none !important;
 	transition: 0.3s !important;
 }
 
-.pr-snippet-write-review-link:hover {
-	background-color: #D66E14 !important;
+.p-w-r .pr-read-review a, .p-w-r .pr-review-display a:hover {
+	border-color: #8F3F0A !important;
+	color: #8F3F0A !important;
 }
 
 .pr-snippet-write-review-link.pr-underline {
@@ -1085,7 +1130,7 @@ table tbody tr:hover>td {
 }
 
 .formula-container .formula-row .formula-column .ingredient-line {
-	line-height: 15px !important;
+	line-height: 21px !important;
 }
 
 .supplement-table .th-1, .td-1 {
