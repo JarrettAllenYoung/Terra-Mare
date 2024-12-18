@@ -284,7 +284,7 @@ table tbody tr:hover>td {
 }
 
 .ghm-offer-selector .variant-options .variant-radio .variant-option label {
-	display: flex;
+/* 	display: flex; */
 }
 
 .our-process-image-box .elementor-image-box-img img {
@@ -560,7 +560,11 @@ table tbody tr:hover>td {
 
 /* PDP OFFER SELECTOR */
 
-.offer-selector .ghm-offer-selector .quantity-container .best-seller-flag, .offer-selector .ghm-offer-selector .quantity-container .best-value-flag {
+.offer-selector .ghm-offer-selector .button-container .add-to-cart, .offer-selector .ghm-offer-selector .logged-out-message-container .links .sign-up-link, .offer-selector .ghm-offer-selector .logged-out-message-container .links .login-link {
+	text-decoration: none;
+}
+
+/* .offer-selector .ghm-offer-selector .quantity-container .best-seller-flag, .offer-selector .ghm-offer-selector .quantity-container .best-value-flag {
 	display: none;
 }
 
@@ -642,7 +646,7 @@ table tbody tr:hover>td {
 		text-align: center;
 	}
 }
-
+ */
 
 
 /* PDP POWER REVIEWS STARS */
