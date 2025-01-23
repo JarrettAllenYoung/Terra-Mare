@@ -304,6 +304,27 @@ table tbody tr:hover>td {
 	flex-direction: row-reverse;
 }
 
+.ghm-offer-selector .disclaimer p {
+  visibility: hidden; /* Hide the original text */
+  position: relative;
+}
+
+.ghm-offer-selector .disclaimer p::after {
+	content: 'Free shipping on U.S. orders $50 or more | 90-day money-back guarantee'; /* New text */
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+	font-size: 14px;
+	color: #756F61;
+}
+
+@media only screen and (max-width: 1149px) {
+	.ghm-offer-selector .variant-options .variant-radio {
+		display: block !important;
+	}
+}
+
 /* PRODUCTS CAROUSEL */
 
 .product-tags {
@@ -849,6 +870,19 @@ table tbody tr:hover>td {
 	transition: 0.3s !important;
 }
 
+/* WRITE A REVIEW (BUTTON) */
+.p-w-r.p-w-r .pr-review-snapshot .pr-review-snapshot-simple .pr-review-snapshot-snippets .pr-snippet-read-and-write a {
+	background-color: transparent;
+	transition: 0.3s;
+	border: 2px solid #B7500B;
+	color: #B7500B !important;
+}
+
+.p-w-r.p-w-r .pr-review-snapshot .pr-review-snapshot-simple .pr-review-snapshot-snippets .pr-snippet-read-and-write a:hover {
+	background-color: transparent;
+	border: 2px solid #8F3F0A;
+	color: #8F3F0A !important;
+}
 
 /* */
 
@@ -1186,18 +1220,60 @@ table tbody tr:hover>td {
 	background-color: #FBC400 !important;
 }
 
-.pr-star-v4-25-filled {
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cmVjdCBmaWxsPSIjREVERURFIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIyIi8+PHBhdGggZD0iTTIgMGgzdjIwSDJhMiAyIDAgMCAxLTItMlYyYTIgMiAwIDAgMSAyLTJ6IiBmaWxsPSIjRkJDNDAwIi8+PHBhdGggZmlsbD0iI0ZGRiIgZD0ibTEwIDEzLjUtNC4xMTQgMi4xNjMuNzg1LTQuNTgxLTMuMzI4LTMuMjQ1IDQuNi0uNjY5TDEwIDNsMi4wNTcgNC4xNjggNC42LjY2OS0zLjMyOCAzLjI0NS43ODUgNC41ODF6Ii8+PC9nPjwvc3ZnPg==") !important;
-}
+/* REVIEW STARS */
 
-.pr-star-v4-50-filled {
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cmVjdCBmaWxsPSIjREVERURFIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIyIi8+PHBhdGggZD0iTTIgMGg4djIwSDJhMiAyIDAgMCAxLTItMlYyYTIgMiAwIDAgMSAyLTJ6IiBmaWxsPSIjRkJDNDAwIi8+PHBhdGggZmlsbD0iI0ZGRiIgZD0ibTEwIDEzLjUtNC4xMTQgMi4xNjMuNzg1LTQuNTgxLTMuMzI4LTMuMjQ1IDQuNi0uNjY5TDEwIDNsMi4wNTcgNC4xNjggNC42LjY2OS0zLjMyOCAzLjI0NS43ODUgNC41ODF6Ii8+PC9nPjwvc3ZnPg==") !important;
-}
-
-.pr-star-v4-75-filled {
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cmVjdCBmaWxsPSIjREVERURFIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIyIi8+PHBhdGggZD0iTTIgMGgxM3YyMEgyYTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0yeiIgZmlsbD0iI0ZCQzQwMCIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Im0xMCAxMy41LTQuMTE0IDIuMTYzLjc4NS00LjU4MS0zLjMyOC0zLjI0NSA0LjYtLjY2OUwxMCAzbDIuMDU3IDQuMTY4IDQuNi42NjktMy4zMjggMy4yNDUuNzg1IDQuNTgxeiIvPjwvZz48L3N2Zz4=") !important;
+.pr-snippet-stars-reco-reco,
+.pr-review-snapshot-header-intro {
+    display: none !important;
 }
 
 .pr-star-v4-100-filled {
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cmVjdCBmaWxsPSIjRkJDNDAwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIyIi8+PHBhdGggZmlsbD0iI0ZGRiIgZD0ibTEwIDEzLjUtNC4xMTQgMi4xNjMuNzg1LTQuNTgxLTMuMzI4LTMuMjQ1IDQuNi0uNjY5TDEwIDNsMi4wNTcgNC4xNjggNC42LjY2OS0zLjMyOCAzLjI0NS43ODUgNC41ODF6Ii8+PC9nPjwvc3ZnPg==") !important;
+    background-image: url(https://gundrymd.com/wp-content/uploads/2023/10/star-filled.svg) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pr-star-v4-75-filled {
+    background-image: url(https://gundrymd.com/wp-content/uploads/2023/10/star-75.svg) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pr-star-v4-50-filled {
+    background-image: url(https://gundrymd.com/wp-content/uploads/2023/10/star-half-filled.svg) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pr-star-v4-25-filled {
+    background-image: url(https://gundrymd.com/wp-content/uploads/2023/10/star-25.svg) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pr-star-v4-0-filled {
+    background-image: url(https://gundrymd.com/wp-content/uploads/2023/10/star-unfilled.svg) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p-w-r .pr-star-accessible-0-filled,
+.p-w-r .pr-star-accessible-100-filled,
+.p-w-r .pr-star-accessible-25-filled,
+.p-w-r .pr-star-accessible-50-filled,
+.p-w-r .pr-star-accessible-75-filled,
+.p-w-r .pr-star-v4,
+.p-w-r .pr-star-v4-0-filled,
+.p-w-r .pr-star-v4-100-filled,
+.p-w-r .pr-star-v4-25-filled,
+.p-w-r .pr-star-v4-50-filled,
+.p-w-r .pr-star-v4-75-filled {
+    background-size: cover;
+    display: inline-block;
+    height: 24.75px !important;
+    line-height: normal;
+    margin-right: 2px;
+    margin-top: -2px;
+    margin-bottom: 2px;
+    width: 24.75px !important;
 }
